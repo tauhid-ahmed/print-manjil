@@ -23,6 +23,7 @@ import Resize from "./resize";
 import Upload from "./upload";
 
 export default function TShirt() {
+  // eslint-disable-next-line
   const [objectUrl, setObjectUrl] = React.useState<string>("");
   const [config, setConfig] = useState<{
     coords: Coords;

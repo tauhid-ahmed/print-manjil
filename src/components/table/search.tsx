@@ -48,6 +48,7 @@ export default function Search() {
     if (currentSearch) {
       handleSearch(currentSearch);
     }
+    // eslint-disable-next-line
   }, [currentSearch]);
 
   return (
